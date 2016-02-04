@@ -11,6 +11,7 @@ $color3: hsla(25, 98%, 43%, 1);
 $hoverColors: hsla(181, 91%, 49%, 1);
 $menuBackground: rgba(0, 0, 0, .5);
 #menu {
+  z-index: 30;
   background-color: $menuBackground;
   position: fixed;
   width: 100%;

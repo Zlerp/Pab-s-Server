@@ -3,12 +3,30 @@
   min-height: 100vh;
   min-width: 100vw;
   // position: relative
+  overflow: hidden;
+}
+
+.titleContainer{
+  z-index: 1;
+  position: absolute;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  padding-top: 30vh;
+  text-align: center;
+  font-size: 50px;
+  @include tShadow;
 }
 
 .lander{
   // background-color: $color2;
-  color: black;
+  color: white;
   @include tShadow;
+  h2{
+  font-size: 80px;
+  @include pacifico;
+  text-align: center;
+  }
 }
 
 .aboutMe{
@@ -30,16 +48,5 @@
 .contactMe {
   background-color: white;
   color: black;
-  @include tShadow;
-}
-
-
-.titleContainer{
-  margin: 0 auto;
-  height: 100px;
-  width: 300px;
-  padding-top: 200px;
-  text-align: center;
-  font-size: 50px;
   @include tShadow;
 }

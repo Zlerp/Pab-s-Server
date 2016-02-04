@@ -53,6 +53,7 @@ body {
   font-family: 'Lato', sans-serif; }
 
 #menu {
+  z-index: 30;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   width: 100%;
@@ -1163,23 +1164,55 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .fullscreen-bg__video {
   min-width: 100%;
   min-height: 100%;
-  -webkit-filter: grayscale(1); }
+  -webkit-filter: grayscale(1) contrast(1);
+  opacity: 1; }
+
+body {
+  background: url("http://wallpaper.pickywallpapers.com/1920x1080/cyan-city-landscape.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .backDrop {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), black);
   position: absolute;
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  z-index: -100; }
+
+img.pure-img {
+  min-width: 100%;
+  min-height: 100%; }
 
 .section {
   height: auto;
   min-height: 100vh;
-  min-width: 100vw; }
+  min-width: 100vw;
+  overflow: hidden; }
 
-.lander {
-  color: black;
+.titleContainer {
+  z-index: 1;
+  position: absolute;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  padding-top: 30vh;
+  text-align: center;
+  font-size: 50px;
   -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
+
+.lander {
+  color: white;
+  -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
+  .lander h2 {
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+    text-align: center; }
 
 .aboutMe {
   background-color: white;
@@ -1198,17 +1231,6 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .contactMe {
   background-color: white;
   color: black;
-  -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
-
-.titleContainer {
-  margin: 0 auto;
-  height: 100px;
-  width: 300px;
-  padding-top: 200px;
-  text-align: center;
-  font-size: 50px;
   -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
