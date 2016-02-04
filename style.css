@@ -86,7 +86,7 @@ body {
         -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
         text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
       #menu ul li a:hover, #menu ul li a:active {
-        color: #0bebef; }
+        color: #14b4ee; }
     #menu ul li.navSpace {
       width: 40%; }
 
@@ -103,7 +103,7 @@ body {
     stroke-width: 5;
     stroke: black; }
   #overLogo .st0 {
-    fill: #0bebef;
+    fill: #14b4ee;
     -moz-transform: translate(-70px, 120px) rotate(-37deg);
     -o-transform: translate(-70px, 120px) rotate(-37deg);
     -ms-transform: translate(-70px, 120px) rotate(-37deg);
@@ -136,7 +136,7 @@ body {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
   #overLogo .st3 {
-    fill: #0bebef;
+    fill: #14b4ee;
     -moz-transform: translate(80px, 70px) rotate(90deg);
     -o-transform: translate(80px, 70px) rotate(90deg);
     -ms-transform: translate(80px, 70px) rotate(90deg);
@@ -147,7 +147,7 @@ body {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
   #overLogo .st4 {
-    fill: #0bebef;
+    fill: #14b4ee;
     -moz-transform: translate(560px, -20px) rotate(90deg);
     -o-transform: translate(560px, -20px) rotate(90deg);
     -ms-transform: translate(560px, -20px) rotate(90deg);
@@ -196,8 +196,8 @@ body {
         border-collapse: collapse;
         border: 1px solid black; }
     #slideMenu ul li:not(:first-child):not(:last-child) a:active, #slideMenu ul li:not(:first-child):not(:last-child) a:hover {
-      background-color: #95faa8;
-      color: #0bebef; }
+      background-color: #7213b4;
+      color: #14b4ee; }
     #slideMenu ul li:nth-last-child(2) a {
       border-bottom: 2px solid #000; }
     #slideMenu ul li.social-menu {
@@ -310,7 +310,7 @@ body {
   -moz-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
-  stroke: #0bebef; }
+  stroke: #14b4ee; }
 .toggleAnimation #h-bot {
   -moz-transform: translate(-150px, 190px) rotate(-45deg);
   -o-transform: translate(-150px, 190px) rotate(-45deg);
@@ -321,7 +321,7 @@ body {
   -moz-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
-  stroke: #0bebef; }
+  stroke: #14b4ee; }
 
 .normal #h-top {
   -moz-transform: translate(0px, 0px) rotate(0deg);

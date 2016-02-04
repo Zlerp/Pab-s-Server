@@ -5,10 +5,10 @@ body{
 
 
 
-$color1: hsla(181, 91%, 49%, 1);
+$color1: #14b4ee;
 $color2: #95faa8;
-$color3: hsla(25, 98%, 43%, 1);
-$hoverColors: hsla(181, 91%, 49%, 1);
+$color3: rgba(114, 19, 180, 1);
+$hoverColors: #14b4ee;
 $menuBackground: rgba(0, 0, 0, .5);
 #menu {
   z-index: 30;
@@ -156,7 +156,7 @@ $menuBackground: rgba(0, 0, 0, .5);
 
     li:not(:first-child):not(:last-child) {
       a:active, a:hover{
-        background-color: $color2;
+        background-color: $color3;
         color: $hoverColors;
       }
     }
