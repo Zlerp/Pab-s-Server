@@ -81,6 +81,7 @@ body {
         -webkit-transition: 0.2s ease-in-out;
         -moz-transition: 0.2s ease-in-out;
         -o-transition: 0.2s ease-in-out;
+        -ms-transition: 0.2s ease-in-out;
         transition: 0.2s ease-in-out;
         -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
         -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
@@ -112,6 +113,7 @@ body {
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
   #overLogo .st1 {
     fill: #95faa8;
@@ -123,6 +125,7 @@ body {
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
   #overLogo .st2 {
     fill: #95faa8;
@@ -134,6 +137,7 @@ body {
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
   #overLogo .st3 {
     fill: #14b4ee;
@@ -145,6 +149,7 @@ body {
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
   #overLogo .st4 {
     fill: #14b4ee;
@@ -156,6 +161,7 @@ body {
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
 
 #overLogo:hover .st1, #overLogo:hover .st2, #overLogo:hover .st3, #overLogo:hover .st4, #overLogo:hover .st0 {
@@ -211,36 +217,42 @@ body {
           -webkit-transition: 0.2s ease-in-out;
           -moz-transition: 0.2s ease-in-out;
           -o-transition: 0.2s ease-in-out;
+          -ms-transition: 0.2s ease-in-out;
           transition: 0.2s ease-in-out; }
         #slideMenu ul li.social-menu a i.ig {
           color: #517fa4;
           -webkit-transition: 0.2s ease-in-out;
           -moz-transition: 0.2s ease-in-out;
           -o-transition: 0.2s ease-in-out;
+          -ms-transition: 0.2s ease-in-out;
           transition: 0.2s ease-in-out; }
         #slideMenu ul li.social-menu a i.fb {
           color: #3b5998;
           -webkit-transition: 0.2s ease-in-out;
           -moz-transition: 0.2s ease-in-out;
           -o-transition: 0.2s ease-in-out;
+          -ms-transition: 0.2s ease-in-out;
           transition: 0.2s ease-in-out; }
         #slideMenu ul li.social-menu a i.gh {
           color: #811c81;
           -webkit-transition: 0.2s ease-in-out;
           -moz-transition: 0.2s ease-in-out;
           -o-transition: 0.2s ease-in-out;
+          -ms-transition: 0.2s ease-in-out;
           transition: 0.2s ease-in-out; }
         #slideMenu ul li.social-menu a i.li {
           color: #007bb6;
           -webkit-transition: 0.2s ease-in-out;
           -moz-transition: 0.2s ease-in-out;
           -o-transition: 0.2s ease-in-out;
+          -ms-transition: 0.2s ease-in-out;
           transition: 0.2s ease-in-out; }
         #slideMenu ul li.social-menu a i.ri {
           color: #ff4500;
           -webkit-transition: 0.2s ease-in-out;
           -moz-transition: 0.2s ease-in-out;
           -o-transition: 0.2s ease-in-out;
+          -ms-transition: 0.2s ease-in-out;
           transition: 0.2s ease-in-out; }
 
 .toggleMenu {
@@ -287,6 +299,7 @@ body {
     -webkit-transition: 0.1s ease-in-out;
     -moz-transition: 0.1s ease-in-out;
     -o-transition: 0.1s ease-in-out;
+    -ms-transition: 0.1s ease-in-out;
     transition: 0.1s ease-in-out; }
     #overLogo path.st1, #overLogo .st2, #overLogo .st3, #overLogo .st4, #overLogo .st0 {
       -moz-transform: translate(0px, 0px) rotate(0deg);
@@ -309,6 +322,7 @@ body {
   -webkit-transition: 0.4s ease-in-out;
   -moz-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   stroke: #14b4ee; }
 .toggleAnimation #h-bot {
@@ -320,6 +334,7 @@ body {
   -webkit-transition: 0.4s ease-in-out;
   -moz-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   stroke: #14b4ee; }
 
@@ -332,6 +347,7 @@ body {
   -webkit-transition: 0.4s ease-in-out;
   -moz-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out; }
 .normal #h-bot {
   -moz-transform: translate(0px, 0px) rotate(0deg);
@@ -342,6 +358,7 @@ body {
   -webkit-transition: 0.4s ease-in-out;
   -moz-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out; }
 
 /*!
@@ -1218,7 +1235,7 @@ img.pure-img {
     color: black; }
 
 .myWork {
-  background-color: #95faa8;
+  background-color: white;
   color: white;
   -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);

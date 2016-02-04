@@ -45,6 +45,7 @@ $reddit: #ff4500;
 	-webkit-transition: #{$time}s ease-in-out;
 	-moz-transition: #{$time}s ease-in-out;
 	-o-transition: #{$time}s ease-in-out;
+	-ms-transition: #{$time}s ease-in-out;
 	transition: #{$time}s ease-in-out;
 }
 
