@@ -60,7 +60,6 @@ body {
   height: 65px;
   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -ms-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
   #menu ul {
     display: table;
@@ -86,7 +85,6 @@ body {
         transition: 0.2s ease-in-out;
         -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
         -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-        -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
         text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
       #menu ul li a:hover, #menu ul li a:active {
         color: #14b4ee; }
@@ -1190,10 +1188,11 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   opacity: 1; }
 
 body {
-  background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/cyan-city-landscape.jpg") no-repeat center center fixed;
+  background: url("http://wallpaper.pickywallpapers.com/1920x1080/cyan-city-landscape.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -ms-background-size: cover;
   background-size: cover; }
 
 .backDrop {
@@ -1223,7 +1222,6 @@ img.pure-img {
   text-align: center;
   -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   font-size: 50px;
   font-size: 80px;
@@ -1236,7 +1234,6 @@ img.pure-img {
   color: black;
   -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
   .aboutMe .titleContainer h2 {
     color: black; }
@@ -1246,7 +1243,6 @@ img.pure-img {
   color: white;
   -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
 
 .contactMe {
@@ -1254,7 +1250,6 @@ img.pure-img {
   color: black;
   -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -ms-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
 
 .test {
@@ -1274,6 +1269,8 @@ img.pure-img {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 /*# sourceMappingURL=style.css.map */
