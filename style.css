@@ -1157,12 +1157,13 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   position: absolute;
   height: 100%;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: -1; }
 
 .fullscreen-bg__video {
   min-width: 100%;
   min-height: 100%;
-  -webkit-filter: grayscale(1) blur(2px); }
+  -webkit-filter: grayscale(1); }
 
 .backDrop {
   position: absolute;
@@ -1175,7 +1176,6 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   min-width: 100vw; }
 
 .lander {
-  background-color: rgba(219, 31, 10, 0.8);
   color: black;
   -moz-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   -webkit-text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);

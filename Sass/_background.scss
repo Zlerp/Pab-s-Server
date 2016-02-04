@@ -4,12 +4,13 @@
   height:100%;
   width:100%;
   overflow: hidden;
+  z-index: -1;
 }
 
 .fullscreen-bg__video {
   min-width: 100%;
   min-height: 100%;
-  -webkit-filter: grayscale(1) blur(2px);
+  -webkit-filter: grayscale(1);
 
 }
 
