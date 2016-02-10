@@ -44,4 +44,10 @@ $(document).ready(function() {
     //    }
     // });
 
+
+
+    // backstretch
+
+    $.backstretch("http://wallpaper.pickywallpapers.com/1920x1080/cyan-city-landscape.jpg");
+
 });
